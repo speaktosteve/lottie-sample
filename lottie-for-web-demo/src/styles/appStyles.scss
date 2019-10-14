@@ -1,0 +1,14 @@
+@import 'themeColors';
+$theme-font: monospace;
+
+body {
+  font-family: $theme-font;
+  background-color: $themeColor-Light;
+  h1, h2 {
+      color: $themeColor-Dark
+  }
+  .boxContainer {
+    width: 460px;
+    margin: 0 auto;
+  }
+}
